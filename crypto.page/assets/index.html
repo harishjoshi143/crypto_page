@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>crypto demo</title>
+    <link rel="shortcut icon" href="./image/png/crypto.logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- ------------------slick.min.css-------------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ------------------theme.min.css-------------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="d-flex flex-column min-vh-100 position-relative">
+        <nav class="bg-black pt-4">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <img class="cursor_pointer" src="./image/png/logo.png" alt="logo">
+                    </div>
+                    <ul class="d-flex gap-3 align-items-center nav_links flex-column flex-xl-row">
+                        <li class="fs_16 ff_Montserrat fw_400" onclick="hidenav('')"><a class="text-white"
+                                href="#">Feedbacks</a></li>
+                        <li class="fs_16 ff_Montserrat fw_400" onclick="hidenav('')"><a class="text-white"
+                                href="#">Statistics</a></li>
+                        <li class="fs_16 ff_Montserrat fw_400" onclick="hidenav('')"><a class="text-white" href="#">Our
+                                Pumps</a></li>
+                        <li class="fs_16 ff_Montserrat fw_400" onclick="hidenav('')"><a class="text-white"
+                                href="#">About Us</a></li>
+                        <li class="fs_16 ff_Montserrat fw_400" onclick="hidenav('')"><a class="text-white"
+                                href="#">FAQ</a></li>
+                        <li class="fs_16 ff_Montserrat fw_400" onclick="hidenav('')"><a class="text-white" href="#">How
+                                It Works</a></li>
+                        <div><a class="fs_20 ff_Montserrat fw_700 join_btn ms-3" href="https://desktop.telegram.org/"
+                                target="_blank" onclick="hidenav('')">Join
+                                Telegram For Free</a>
+                        </div>
+                    </ul>
+                    <div class="d-flex flex-column d-xl-none menu">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero_image z-n1">
+            <div
+                class="linear_clr calc_height d-flex justify-content-lg-center mt-lg-0 align-items-center flex-column flex-grow-1">
+                <div class="container d-flex justify-content-center">
+                    <div class="max_width_700 mt-5 mt-lg-0">
+                        <p class="fs_70 clr_txt fw_800 ff_Exo text-center">Earn More in Less Time</p>
+                        <p class="ff_Montserrat fs_16 fw_500 text-white  text-center mt-3">If you don't join this group
+                            you
+                            could be missing
+                            out on one of the biggest opportunities of your life, more than 25000 people have already
+                            joined!</p>
+                        <p class="ff_Montserrat fs_16 fw_500 text-white text-center mt-2">Will you miss this
+                            opportunity?</p>
+
+                        <div class="text-center position-relative">
+                            <a class="fs_20 ff_Montserrat fw_700 telegram_btn ms-3 mt-5 d-inline-block z-2"
+                                href="https://desktop.telegram.org/" target="_blank">Join Telegram For Free</a>
+                            <img class="free_img_set z-n1" src="./image/png/free.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- statistic section -->
+
+    <section class="position-relative">
+        <div class="main_section_set text-center">
+            <h1 class="fs_48 fw_800 ff_Exo text-white">Statistics</h1>
+            <div class="row mt-5 justify-content-center justify-sm-start responsive">
+                <div class="col-3 cursor_pointer">
+                    <div class="statitics_card">
+                        <div>
+                            <svg width="70" height="73" viewBox="0 0 70 73" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M35.0311 11.5308C37.7825 11.5308 40.0134 8.94936 40.0134 5.76533C40.0134 2.58145 37.7825 0 35.0311 0C32.2793 0 30.0488 2.58145 30.0488 5.76533C30.0488 8.94936 32.2793 11.5308 35.0311 11.5308ZM29.6993 12.8032C26.171 12.8032 23.3335 16.1329 23.3335 20.286V37.9872C23.3335 41.4287 27.6861 41.4287 27.6861 37.9872V21.8014H28.7164V66.1207C28.7164 70.7219 34.5124 70.5865 34.5124 66.1207V40.3939H35.5107V66.1207C35.5107 70.5865 41.3385 70.7219 41.3385 66.1207V21.8014H42.3448V37.9872C42.3448 41.4345 46.6232 41.4549 46.6665 38.0489V40.9872C46.6665 44.4287 51.0191 44.4287 51.0191 40.9872V24.8014H52.0495V69.1207C52.0495 73.7219 57.8454 73.5865 57.8454 69.1207V43.3939H58.8437V69.1207C58.8437 73.5865 64.6715 73.7219 64.6715 69.1207V24.8014H65.6778V40.9872C65.6778 44.4552 70.0076 44.4551 69.9998 40.9872V23.3919C69.9998 19.5623 67.4298 15.8111 63.5559 15.8111L53.0323 15.8032C49.5257 15.8032 46.7014 19.0921 46.6668 23.2096V20.3919C46.6668 16.5623 44.0968 12.8111 40.2229 12.8111L29.6993 12.8032ZM11.6976 14.5308C14.449 14.5308 16.6799 11.9493 16.6799 8.7653C16.6799 5.58142 14.449 2.99997 11.6976 2.99997C8.94584 2.99997 6.71533 5.58142 6.71533 8.7653C6.71533 11.9493 8.94584 14.5308 11.6976 14.5308ZM6.36576 15.8031C2.83753 15.8031 0 19.1329 0 23.286V40.9872C0 44.4286 4.35256 44.4286 4.35256 40.9872V24.8014H5.38295V69.1207C5.38295 73.7219 11.1789 73.5865 11.1789 69.1207V43.3939H12.1772V69.1207C12.1772 73.5865 18.005 73.7219 18.005 69.1207V24.8014H19.0113V40.9872C19.0113 44.4552 23.3411 44.455 23.3333 40.9872V23.3919C23.3333 19.5622 20.7633 15.8111 16.8894 15.8111L6.36576 15.8031ZM63.3464 8.76533C63.3464 11.9494 61.1155 14.5308 58.3641 14.5308C55.6123 14.5308 53.3818 11.9494 53.3818 8.76533C53.3818 5.58145 55.6123 3 58.3641 3C61.1155 3 63.3464 5.58145 63.3464 8.76533Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+
+                        <p class="fs_30 fw_600 ff_Montserrat text-white mt-3">25000</p>
+                        <p class="fs_16 fw_500 ff_Exo text-white">Active Members</p>
+                    </div>
+                </div>
+                <div class="col-3 cursor_pointer">
+                    <div class="statitics_card">
+                        <div>
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M31.9998 0.888916C23.7486 0.888916 15.8354 4.16668 10.0009 10.0011C4.16644 15.8356 0.888672 23.7488 0.888672 32C0.89202 32.5929 0.912319 33.1857 0.949542 33.7774L2.72693 32H4.63959L1.12268 35.5169C1.17687 36.0869 1.24679 36.6552 1.33234 37.2213L6.5536 32H8.46626L1.67862 38.7877C1.78245 39.3109 1.89972 39.8314 2.03031 40.3486L10.3789 32H12.2916L2.5078 41.7824C2.65482 42.2655 2.81358 42.745 2.98394 43.2203L14.2069 32H16.1196L3.57234 44.5459C3.75866 44.991 3.9553 45.4316 4.1621 45.8675L18.0322 32H19.9449L4.84114 47.1011C5.0642 47.5112 5.29646 47.9162 5.53775 48.3158L21.8576 32H23.7702L6.29389 49.4736C6.55259 49.851 6.81957 50.2226 7.09466 50.5882L25.6829 32H27.5955L7.92249 51.6717C8.21352 52.0182 8.51208 52.3582 8.81795 52.6916L29.5082 32H31.4208L9.72828 53.6926C10.0474 54.0121 10.3735 54.3246 10.7063 54.63L33.3335 32H35.2462L11.6964 55.5525C12.0441 55.8438 12.3981 56.1275 12.7582 56.4033L37.1602 32H39.0728L13.8458 57.2298C14.2174 57.4983 14.5949 57.7585 14.9779 58.0103L40.9855 32H42.8981L16.1642 58.7366C16.5615 58.9801 16.9643 59.2146 17.3722 59.44L42.7872 34.0236L44.6999 32.1109L44.8108 32H46.7234L45.6549 33.0686L18.6626 60.0636C19.0902 60.2787 19.5227 60.4839 19.9598 60.6791L46.6139 34.0222L48.6361 32H50.5488L47.5689 34.9799L21.3544 61.1931C21.8182 61.3752 22.2864 61.5461 22.7584 61.7057L48.5252 35.939L52.4641 32H54.3768L49.4802 36.8966L24.2802 62.0966C24.784 62.2402 25.2914 62.371 25.8019 62.4889L50.4379 37.8516L56.2894 32H58.2021L51.3942 38.8079L27.463 62.7392C28.0221 62.8311 28.5837 62.9078 29.147 62.9691L52.3532 39.7643L60.1148 32H62.0288L53.3109 40.7206L30.9704 63.0584C31.3132 63.0816 31.6564 63.0992 31.9998 63.1111C32.2862 63.1056 32.5725 63.0962 32.8587 63.0827L54.2645 41.6769L63.0649 32.8738C63.0843 32.5828 63.0997 32.2915 63.1109 32C63.1109 23.7488 59.8331 15.8356 53.9987 10.0011C48.1642 4.16668 40.251 0.888916 31.9998 0.888916ZM9.72828 53.6926C9.66308 53.6302 9.59816 53.5675 9.5335 53.5046C9.59572 53.5708 9.65524 53.6398 9.71746 53.7034L9.72828 53.6926ZM0.957657 33.9614C0.973491 34.1748 0.991527 34.3881 1.01176 34.6012C0.994179 34.3875 0.971183 34.1765 0.957657 33.9614ZM62.9662 34.892L55.2222 42.6346L34.9053 62.9515C35.6332 62.8892 36.3587 62.8012 37.0804 62.6878L54.2645 45.5022L56.1772 43.5896L62.6496 37.1144C62.7814 36.3772 62.8865 35.6355 62.9648 34.8907L62.9662 34.892ZM62.5604 37.7082C62.5008 38.0329 62.4332 38.3562 62.3629 38.6781C62.4343 38.3559 62.5006 38.0326 62.5617 37.7082H62.5604ZM62.1437 39.5384L57.1349 44.5473L55.2222 46.4599L39.5246 62.1589C40.4489 61.9259 41.362 61.6506 42.261 61.3337L56.1785 47.4163L58.0912 45.5036L61.3308 42.2653C61.6432 41.3692 61.9145 40.4593 62.1437 39.5384ZM2.98935 43.2311C3.00862 43.2781 3.02801 43.325 3.04751 43.3718C3.02857 43.3245 3.00693 43.2798 2.98935 43.2325V43.2311ZM59.9633 45.5442L59.0475 46.4599L57.1349 48.3739L45.5101 59.9973C47.199 59.1778 48.8103 58.2072 50.3242 57.0972L57.1159 50.3042C58.2054 48.8051 59.1587 47.2116 59.9646 45.5428L59.9633 45.5442ZM4.2365 46.0325C4.27498 46.1066 4.31375 46.1805 4.35283 46.2543L4.2365 46.0325ZM5.73795 48.6702C5.79965 48.7652 5.86187 48.8599 5.92461 48.9542L5.7393 48.6702H5.73795ZM7.57215 51.2578C7.60898 51.3057 7.64596 51.3535 7.68307 51.4012L7.57215 51.2578ZM56.2286 51.4729C56.0527 51.6893 55.8918 51.9193 55.7105 52.133C55.8862 51.9153 56.0589 51.6952 56.2286 51.4729ZM53.8722 54.1092C53.6017 54.377 53.3122 54.6246 53.0322 54.8829C53.3165 54.6302 53.5961 54.3722 53.8709 54.1092H53.8722ZM51.7215 56.0354C51.4212 56.2816 51.1128 56.5183 50.8017 56.7523C51.1128 56.5191 51.4194 56.2801 51.7215 56.0354ZM43.3973 60.9428C43.2891 60.9861 43.1808 61.024 43.0726 61.0646C43.1811 61.0246 43.2893 60.984 43.3973 60.9428ZM37.873 62.5281C37.6295 62.5755 37.3901 62.6377 37.1426 62.6796C37.3867 62.6321 37.6302 62.5816 37.873 62.5281ZM34.5387 62.9935C34.1045 63.0286 33.6676 63.0543 33.228 63.0706C33.6654 63.0541 34.1024 63.0284 34.5387 62.9935Z"
+                                    fill="url(#paint0_linear_703_6037)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_703_6037" x1="0.888672" y1="37.6566" x2="63.1109"
+                                        y2="37.6566" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#6601CD" />
+                                        <stop offset="1" stop-color="#CB2AEF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <p class="fs_30 fw_600 ff_Montserrat text-white mt-4">765%</p>
+                        <p class="fs_16 fw_500 ff_Exo text-white">Average Percentage</p>
+                    </div>
+                </div>
+                <div class="col-3 cursor_pointer">
+                    <div class="statitics_card">
+                        <div>
+                            <svg width="71" height="70" viewBox="0 0 71 70" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.8125 19.1875C15.8125 17.7033 17.0157 16.5 18.5 16.5C19.4301 16.5 20.2519 16.9697 20.7392 17.7002C21.745 19.2077 23.7823 19.6144 25.2898 18.6087C26.7973 17.603 27.204 15.5656 26.1983 14.0581C24.5455 11.5808 21.7153 9.9375 18.5 9.9375C13.3914 9.9375 9.25 14.0789 9.25 19.1875C9.25 23.8809 12.7455 27.7579 17.2752 28.3572C17.5084 28.4098 17.7511 28.4375 18.0003 28.4375H49.9828C51.7949 28.4375 53.2641 26.9685 53.2641 25.1563C53.2641 23.3441 51.7949 21.875 49.9828 21.875H18.5079H18.5C17.0157 21.875 15.8125 20.6718 15.8125 19.1875Z"
+                                    fill="white" />
+                                <path
+                                    d="M34.4062 10.9375C32.5941 10.9375 31.125 12.4066 31.125 14.2188C31.125 16.0309 32.5941 17.5 34.4062 17.5H58.469C60.2811 17.5 61.7503 16.0309 61.7503 14.2188C61.7503 12.4066 60.2811 10.9375 58.469 10.9375H34.4062ZM21.2812 32.8125C19.4691 32.8125 18 34.2816 18 36.0938C18 37.9059 19.4691 39.375 21.2812 39.375H58.4695C60.2816 39.375 61.7507 37.9059 61.7507 36.0938C61.7507 34.2816 60.2816 32.8125 58.4695 32.8125H21.2812ZM9.25 47.0312C9.25 45.2191 10.7191 43.75 12.5312 43.75H49.7186C51.5311 43.75 52.9998 45.2191 52.9998 47.0312C52.9998 48.8434 51.5311 50.3125 49.7186 50.3125H12.5312C10.7191 50.3125 9.25 48.8434 9.25 47.0312ZM21.2604 54.6914C19.4482 54.6914 17.9792 56.1606 17.9792 57.9727C17.9792 59.7848 19.4482 61.2539 21.2604 61.2539H58.448C60.2601 61.2539 61.7293 59.7848 61.7293 57.9727C61.7293 56.1606 60.2601 54.6914 58.448 54.6914H21.2604Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+
+                        <p class="fs_30 fw_600 ff_Montserrat text-white mt-3">1508%</p>
+                        <p class="fs_16 fw_500 ff_Exo text-white">Our Record</p>
+                    </div>
+                </div>
+                <div class="col-3 cursor_pointer">
+                    <div class="statitics_card">
+                        <div>
+                            <svg width="71" height="70" viewBox="0 0 71 70" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_703_6053)">
+                                    <path
+                                        d="M63.9375 33.5417H52.5625C53.2917 32.5208 53.5833 31.2083 53.5833 29.8958V6.5625C53.7292 2.91667 50.8125 0 47.1667 0H23.8333C20.1875 0 17.2708 2.91667 17.2708 6.5625V30.0417C17.2708 31.3542 17.7083 32.6667 18.2917 33.6875H7.0625C3.41667 33.5417 0.5 36.4583 0.5 40.1042V63.5833C0.5 67.0833 3.41667 70 7.0625 70H30.5417C32.5833 70 34.3333 68.9792 35.6458 67.5208C36.8125 68.9792 38.7083 70 40.75 70H64.2292C67.875 70 70.7917 67.0833 70.7917 63.4375V40.1042C70.5 36.4583 67.5833 33.5417 63.9375 33.5417ZM20.1875 29.8958V6.5625C20.1875 4.52083 21.7917 2.91667 23.8333 2.91667H47.1667C49.2083 2.91667 50.8125 4.52083 50.8125 6.5625V30.0417C50.8125 32.0833 49.2083 33.6875 47.1667 33.6875H23.8333C21.7917 33.5417 20.1875 31.9375 20.1875 29.8958ZM30.3958 67.0833H7.0625C5.02083 67.0833 3.41667 65.4792 3.41667 63.4375V40.1042C3.41667 38.0625 5.02083 36.4583 7.0625 36.4583H30.5417C32.5833 36.4583 34.1875 38.0625 34.1875 40.1042V63.5833C34.0417 65.4792 32.4375 67.0833 30.3958 67.0833ZM67.5833 63.4375C67.5833 65.4792 65.9792 67.0833 63.9375 67.0833H40.6042C38.5625 67.0833 36.9583 65.4792 36.9583 63.4375V40.1042C36.9583 38.0625 38.5625 36.4583 40.6042 36.4583H64.0833C66.125 36.4583 67.7292 38.0625 67.7292 40.1042L67.5833 63.4375ZM41.625 25.5208C41.625 26.3958 41.0417 26.9792 40.1667 26.9792H30.8333C29.9583 26.9792 29.375 26.3958 29.375 25.5208C29.375 24.6458 29.9583 24.0625 30.8333 24.0625H34.0417V14.7292L32 17.0625C31.4167 17.6458 30.5417 17.7917 29.9583 17.2083C29.375 16.625 29.2292 15.75 29.8125 15.1667L34.4792 9.91667C34.9167 9.47917 35.5 9.33333 36.0833 9.47917C36.5208 9.77083 36.9583 10.3542 36.9583 10.9375V24.0625H40.1667C40.8958 24.0625 41.625 24.6458 41.625 25.5208ZM22.375 60.5208H15.0833C14.2083 60.5208 13.625 59.9375 13.625 59.0625V51.7708C13.625 50.8958 14.2083 50.3125 15.0833 50.3125H20.9167V45.9375H15.0833C14.2083 45.9375 13.625 45.3542 13.625 44.4792C13.625 43.6042 14.2083 43.0208 15.0833 43.0208H22.375C23.25 43.0208 23.8333 43.6042 23.8333 44.4792V51.7708C23.8333 52.6458 23.25 53.2292 22.375 53.2292H16.5417V57.6042H22.375C23.25 57.6042 23.8333 58.1875 23.8333 59.0625C23.8333 59.9375 23.25 60.5208 22.375 60.5208ZM57.0833 44.4792V51.7708V59.0625C57.0833 59.9375 56.5 60.5208 55.625 60.5208H48.9167C48.0417 60.5208 47.4583 59.9375 47.4583 59.0625C47.4583 58.1875 48.0417 57.6042 48.9167 57.6042H54.1667V53.2292H48.9167C48.0417 53.2292 47.4583 52.6458 47.4583 51.7708C47.4583 50.8958 48.0417 50.3125 48.9167 50.3125H54.1667V45.9375H48.9167C48.0417 45.9375 47.4583 45.3542 47.4583 44.4792C47.4583 43.6042 48.0417 43.0208 48.9167 43.0208H55.625C56.3542 43.0208 57.0833 43.6042 57.0833 44.4792Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_703_6053">
+                                        <rect width="70" height="70" fill="white" transform="translate(0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+
+                        <p class="fs_30 fw_600 ff_Montserrat text-white mt-3">25+</p>
+                        <p class="fs_16 fw_500 ff_Exo text-white">No. of Pumps</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  our pump section -->
+
+    <section class="bg_black margin_top">
+
+        <div class="position-relative">
+            <div class="container">
+                <img class="position-absolute w-100 position_set" src="./image/png/bgc_image.png" alt="#">
+                <h1 class="fs_48 fw_600 ff_Exo text-white text-center mt-5 pt-5">Our Pump</h1>
+                <div class="slider-container">
+                    <span class="arrow-left"><img src="./image/png/left.png" alt=""></span>
+                    <span class="arrow-right"><img src="./image/png/right.png" alt=""></span>
+                    <div class="slider" id="slider">
+                        <div class="slide prev-2">
+                            <img class="height_md_60 height_slider_phone" src="./image/png/phone.png" alt="">
+                        </div>
+                        <div class="slide prev-1">
+                            <img class="height_md_60 height_slider_phone" src="./image/png/phone.png" alt="">
+                        </div>
+                        <div class="slide active">
+                            <img class="height_md_60 height_slider_phone" src="./image/png/phone.png" alt="">
+                        </div>
+                        <div class="slide next-1">
+                            <img class="height_md_60 height_slider_phone" src="./image/png/phone.png" alt="">
+                        </div>
+                        <div class="slide next-2">
+                            <img class="height_md_60 height_slider_phone" src="./image/png/phone.png" alt="">
+                        </div>
+                    </div>
+                    <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="rocket_image d-none d-lg-block"></div>
+            <img class="first_op d-none d-lg-block" src="./image/png/op1.png" alt="">
+            <img class="second_op d-none d-lg-block" src="./image/png/op2.png" alt="">
+        </div>
+
+    </section>
+
+    <!--  feedback -->
+
+    <section class="position-relative">
+        <div class="feedback_section_set text-center">
+            <h1 class="fs_48 fw_800 ff_Exo text-white">Feedbacks</h1>
+            <div class=" feedback_slider row mt-5 justify-content-center justify-sm-start ">
+                <div class="col-3 cursor_pointer">
+                    <div class="feedback_card mx-3 text-start">
+                        <div class="text_transform">
+                            <img src="./image/png/quote.png" alt="quote">
+                            <p class="fs_16 fw_400 ff_Poppins text-white mt-4 ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Vulputate sit cras volutpat, dui, ultricies. Habitant donec ultricies
+                                egestas commodo ultrices at. Dignissim ultricies.</p>
+                        </div>
+                        <div class="mt-4 d-flex align-items-center">
+                            <img src="./image/png/zandaya image.png" alt="zandaya">
+                            <div class="ms-2">
+                                <p class="text-white fw_400 ff_Poppins fs_18">Zandaya</p>
+                                <em class="text-white fw_400 ff_Poppins fs_14">Senior Associates</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 cursor_pointer">
+                    <div class="feedback_card mx-3 text-start">
+                        <div class="text_transform">
+                            <img src="./image/png/quote.png" alt="quote">
+                            <p class="fs_16 fw_400 ff_Poppins text-white mt-4 ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Vulputate sit cras volutpat, dui, ultricies. Habitant donec ultricies
+                                egestas commodo ultrices at. Dignissim ultricies.</p>
+                        </div>
+                        <div class="mt-4 d-flex align-items-center">
+                            <img src="./image/png/zandaya image.png" alt="zandaya">
+                            <div class="ms-2">
+                                <p class="text-white fw_400 ff_Poppins fs_18">Zandaya</p>
+                                <em class="text-white fw_400 ff_Poppins fs_14">Senior Associates</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 cursor_pointer">
+                    <div class="feedback_card mx-3 text-start">
+                        <div class="text_transform">
+                            <img src="./image/png/quote.png" alt="quote">
+                            <p class="fs_16 fw_400 ff_Poppins text-white mt-4 ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Vulputate sit cras volutpat, dui, ultricies. Habitant donec ultricies
+                                egestas commodo ultrices at. Dignissim ultricies.</p>
+                        </div>
+                        <div class="mt-4 d-flex align-items-center">
+                            <img src="./image/png/zandaya image.png" alt="zandaya">
+                            <div class="ms-2">
+                                <p class="text-white fw_400 ff_Poppins fs_18">Zandaya</p>
+                                <em class="text-white fw_400 ff_Poppins fs_14">Senior Associates</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 cursor_pointer">
+                    <div class="feedback_card mx-3 text-start">
+                        <div class="text_transform">
+                            <img src="./image/png/quote.png" alt="quote">
+                            <p class="fs_16 fw_400 ff_Poppins text-white mt-4 ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Vulputate sit cras volutpat, dui, ultricies. Habitant donec ultricies
+                                egestas commodo ultrices at. Dignissim ultricies.</p>
+                        </div>
+                        <div class="mt-4 d-flex align-items-center">
+                            <img src="./image/png/zandaya image.png" alt="zandaya">
+                            <div class="ms-2">
+                                <p class="text-white fw_400 ff_Poppins fs_18">Zandaya</p>
+                                <em class="text-white fw_400 ff_Poppins fs_14">Senior Associates</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- how it works -->
+    <section class="bg_black margin_top_500">
+        <div class="position-relative">
+            <div class="container">
+                <h1 class="fs_48 fw_600 ff_Exo text-white text-center mt-5 pt-5">How it <span
+                        class="linear_word">Works?</span>
+                </h1>
+                <div class="row mt-5 pt-3 justify-content-between align-items-center">
+                    <div class="col-xl-4 col-md-5 col-12">
+                        <div class="work_cards">
+                            <div class="clr_grey">
+                                <p class="fs_20 ff_Poppins text-white fw_500">Create an Exhange Account</p>
+                            </div>
+                        </div>
+                        <div class="work_cards mt-5">
+                            <p class="fs_20 ff_Poppins text-white fw_500">Transfer bnb to trustwallet or metamask</p>
+                        </div>
+                        <div class="work_cards mt-5">
+                            <p class="fs_20 ff_Poppins text-white fw_500">Connect wallet to pancakeswap or poocoink</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-9 text-center">
+                        <img class="width_md_80 width_sm_50" src="./image/png/iPhone 12 Mockup.png" alt="">
+                    </div>
+                    <div class="col-xl-4 col-md-12 col-12">
+                        <div class="work_cards">
+                            <p class="fs_20 ff_Poppins text-white fw_500">Cuy as soon as possible after the signal</p>
+                        </div>
+                        <div class="work_cards mt-5">
+                            <p class="fs_20 ff_Poppins text-white fw_500">TWe hold the pump for at least 5 minutes and
+                                the
+                                coin will attract investors from outside our group.</p>
+                        </div>
+                        <div class="work_cards mt-5">
+                            <p class="fs_20 ff_Poppins text-white fw_500">Sell after the signal and take the profits</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="first_op d-none d-xl-block" src="./image/png/op1.png" alt="">
+            <img class="second_op d-none d-xl-block" src="./image/png/op2.png" alt="">
+        </div>
+      
+    </section>
+
+    <!--  crypto section -->
+
+    <section class="position-relative">
+        <div class="about_Section text-center">
+            <div class="row align-items-center justify-content-lg-between justify-content-center">
+                <div class="col-12 col-lg-5 text-start">
+                    <h1 class="fs_48 fw_800 ff_Exo text-white">About Us</h1>
+                    <p class="ff_Poppins fs_16 fw_400 text-white mt-3">We are a team that has been working with
+                        cryptocurrencies for over 8 years.
+                        We decided to create this community with the aim of bringing together as many investors as
+                        possible, so that everyone can profit from it.
+                        The group is completely free because the greater the number of investors, the greater the
+                        ability to influence the value of the corresponding coins.</p>
+                </div>
+                <div class="col-10 col-lg-6 mt-5 mt-lg-0">
+                    <img class="w-100" src="./image/png/crypto.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- accodian -->
+
+    <section class="bg_black margin_300">
+        <div class="container">
+            <h1 class="fs_48 fw_600 ff_Exo linear_word text-center mt-5 pt-5">FAQs</h1>
+
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fs_18 fw_500 ff_Poppins" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is a pump & dump?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff_Poppins fw_400 fs_16">
+                            WPump is a deliberate and drastic increase in the value of a coin with the help of a massive
+                            purchase by our entire team.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed  fs_18 fw_500 ff_Poppins" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            How does the pump come about?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff_Poppins fw_400 fs_16">
+                            WPump is a deliberate and drastic increase in the value of a coin with the help of a massive
+                            purchase by our entire team.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed  fs_18 fw_500 ff_Poppins" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
+                            aria-controls="collapseSeven">
+                            Why is it profitable to me?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            WPump is a deliberate and drastic increase in the value of a coin with the help of a massive
+                            purchase by our entire team.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed  fs_18 fw_500 ff_Poppins" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Why is it profitable to me?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff_Poppins fw_400 fs_16">
+                            WPump is a deliberate and drastic increase in the value of a coin with the help of a massive
+                            purchase by our entire team.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed  fs_18 fw_500 ff_Poppins" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            Is it legal to participate in the pump?
+
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff_Poppins fw_400 fs_16">
+                            WPump is a deliberate and drastic increase in the value of a coin with the help of a massive
+                            purchase by our entire team.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed  fs_18 fw_500 ff_Poppins" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                            aria-controls="collapseFive">
+                            How to participate in the pump using Binance and TrustWallet?
+
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff_Poppins fw_400 fs_16">
+                            WPump is a deliberate and drastic increase in the value of a coin with the help of a massive
+                            purchase by our entire team.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed  fs_18 fw_500 ff_Poppins" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                            aria-controls="collapseSix">
+                            How to participate if u don’t have Binance?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff_Poppins fw_400 fs_16">
+                            WPump is a deliberate and drastic increase in the value of a coin with the help of a massive
+                            purchase by our entire team.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="horizon_line"></div>
+        <div class="mt-5 text-center">
+            <img src="./image/png/footer.png" alt="footer">
+            <div class="mt-3">
+                <a href="https://desktop.telegram.org/" target="_blank"><button class="telegram_btn"><img class="me-2"
+                            src="./image/png/tlegram.png" alt="tlefram">Telegram</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- ---------jquery.min.js-------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- -----------slick.min.js--------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="../assets/css/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+`<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: black;
+            font-size: 50px;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            text-decoration: none;
+            box-sizing: border-box;
+            list-style-type: none;
+        }
+
+        .d_flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        span,
+        h1 {
+            background: linear-gradient(118deg, red, blue, green);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    </style>
+</head>
+
+<body class="d_flex">
+
+    <div style="display: flex; align-items: center; gap: 20px;">
+        <div style="display: flex; align-items: center">
+            <h1 class="days">00</h1>
+            <span>
+                <h1>Days</h1>
+            </span>
+        </div>
+        <div style="display: flex; align-items: center">
+            <h1 class="hour">00</h1>
+            <span>
+                <h1>hour</h1>
+            </span>
+        </div>
+        <div style="display: flex; align-items: center">
+            <h1 class="mint">00</h1>
+            <span>
+                <h1>mints</h1>
+            </span>
+        </div>
+        <div style="display: flex; align-items: center">
+            <h1 class="time">00</h1>
+            <span>
+                <h1>sec</h1>
+            </span>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        let time = document.querySelector(".time")
+        let mint = document.querySelector(".mint")
+        let hour = document.querySelector(".hour")
+        let day = document.querySelector(".days")
+        let sec = 60
+        let mints = 59
+        let hours = 24
+        let days = 10
+        setInterval(() => {
+            if (days >= 0) {
+                if (sec > 0) {
+                    sec--
+                    if (sec == 0) {
+                        if (mints > 0) {
+                            mints--
+                            if (mints == 0) {
+                                hours--
+                            } else {
+                                if (hours <= 0) {
+                                    hours = 24
+                                    days--
+                                }
+                            }
+                        } else {
+                            mints = 59
+                        }
+                    }
+                } else {
+                    sec = 60
+                }
+            }
+            setInterval(() => {
+                time.innerHTML = sec
+                mint.innerHTML = mints
+                hour.innerHTML = hours
+                day.innerHTML = days
+            }, 10);
+        }, 1000);
+
+    </script>
+</body>
+
+</html>`
